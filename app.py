@@ -71,15 +71,6 @@ if 'calculations' not in st.session_state:
 if 'recent_medicines' not in st.session_state:
     st.session_state.recent_medicines = history_data.get("recent_medicines", [])
 
-# ====================== SIDEBAR ======================
-with st.sidebar:
-    st.image("Vimalan.png", width=200)
-    st.title("Vimalan MedAssist")
-    st.caption("Advanced Pediatric Medication Dosage Assistant")
-    st.divider()
-    st.subheader("📋 Database Stats")
-    st.metric("Total Medicines", len(medicine_names))
-
 # ====================== MAIN APP ======================
 st.markdown("# 🩺 Vimalan MedAssist")
 
