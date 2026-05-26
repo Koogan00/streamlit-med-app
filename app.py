@@ -234,7 +234,7 @@ with tab1:
                     """
 
                     response = client.chat.completions.create(
-                        model="liquid/lfm-2.5-1.2b-thinking:free",
+                        model="nvidia/nemotron-3-super-120b-a12b:free",
                         messages=[{"role": "user", "content": prompt}],
                         max_tokens=1500,
                         temperature=0.3
