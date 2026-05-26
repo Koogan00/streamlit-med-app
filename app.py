@@ -197,7 +197,7 @@ with tab1:
 
         # ====================== AI SAFETY AUDIT ======================
         st.markdown("### 🤖 AI Safety Verification")
-        if st.button("🚀 Tekan aku kalau nak double=check", type="primary", use_container_width=False):
+        if st.button("🚀 Tekan aku kalau nak double-check", type="primary", use_container_width=False):
             with st.spinner("Engkauu sabar aku loading japp . . .", show_time=True):
                 try:
                     client = OpenAI(
