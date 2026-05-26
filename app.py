@@ -197,8 +197,8 @@ with tab1:
 
         # ====================== AI SAFETY AUDIT ======================
         st.markdown("### 🤖 AI Safety Verification")
-        if st.button("🚀 Run AI Clinical Safety Audit", type="primary", use_container_width=False):
-            with st.spinner("Analyzing with AI Pharmacist...", show_time=True):
+        if st.button("🚀 Tekan aku kalau nak double=check", type="primary", use_container_width=False):
+            with st.spinner("Engkauu sabar aku loading japp . . .", show_time=True):
                 try:
                     client = OpenAI(
                         base_url="https://openrouter.ai/api/v1",
@@ -248,7 +248,7 @@ with tab1:
                     
                 # Save to History
         if st.session_state.audit_result is not None:
-            if st.button("💾 Save Calculation to History", type="primary"):
+            if st.button("💾 Save Result", type="primary"):
                 entry = {
                     "Timestamp": datetime.now().strftime("%Y-%m-%d %H:%M"),
                     "Medicine": selected_medicine,
@@ -266,9 +266,9 @@ with tab1:
                     "recent_medicines": st.session_state.recent_medicines
                 })
 
-                st.success("✅ Saved successfully!")
+                st.success("✅ Done bosskurrr!")
         else:
-            st.button("💾 Save Calculation to History", disabled=True)
+            st.button("💾 Save Result", disabled=True)
             st.warning("⚠️ Run AI Safety Audit before saving")
 
 # ====================== TAB 2: HISTORY ======================
