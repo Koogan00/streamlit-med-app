@@ -9,9 +9,11 @@ from openai import OpenAI
 load_dotenv()
 
 # ====================== CONFIGURATION ======================
-CACHE_FILE = "audit_cache.json"
-HISTORY_FILE = "app_history.json"
-DATA_FILE = r"C:\Users\Koogan\OneDrive\Desktop\Vimalan Medication\meds.json"
+BASE_DIR = os.path.dirname(__file__)
+
+DATA_FILE = os.path.join(BASE_DIR, "meds.json")
+CACHE_FILE = os.path.join(BASE_DIR, "audit_cache.json")
+HISTORY_FILE = os.path.join(BASE_DIR, "app_history.json")
 
 # ====================== PAGE CONFIG & STYLING ======================
 st.set_page_config(
