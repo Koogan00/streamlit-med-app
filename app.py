@@ -32,7 +32,15 @@ st.markdown("""
             width: 250px !important;
             background-color: #0f172a !important;  /* 👈 change this */
         }
-
+        div.stButton > button:first-child {
+        background-color: #008080; /* Teal background */
+        color: white;             /* White text */
+        border: 1px solid #008080;
+        }
+        div.stButton > button:hover {
+            background-color: #005f5f; /* Darker shade on hover */
+            color: white;
+        }
         section[data-testid="stSidebar"] > div {
             overflow: hidden !important
             padding-top: 1rem;
@@ -226,9 +234,9 @@ with tab1:
                     """
 
                     response = client.chat.completions.create(
-                        model="x-ai/grok-build-0.1",
+                        model="liquid/lfm-2.5-1.2b-thinking:free",
                         messages=[{"role": "user", "content": prompt}],
-                        max_tokens=1000,
+                        max_tokens=900,
                         temperature=0.3
                     )
 
