@@ -39,9 +39,4 @@ The AI pharmacist can:
 <img width="1816" height="755" alt="image" src="https://github.com/user-attachments/assets/fcbbd685-511d-45ab-80dc-f539debe0ae0" />
 <img width="1727" height="271" alt="image" src="https://github.com/user-attachments/assets/b74cd8ac-3d39-423a-959d-2a2d440e1609" />
 <img width="1787" height="687" alt="image" src="https://github.com/user-attachments/assets/7fa3bb7e-77e6-49bc-85ef-c7019ee25212" />
-
-
-
-
-
-
+<img width="1771" height="643" alt="image" src="https://github.com/user-attachments/assets/8c0fc982-5aed-486c-bfb3-523e54aa2cec" />
