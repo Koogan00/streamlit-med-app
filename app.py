@@ -197,8 +197,8 @@ with tab1:
 
         # ====================== AI SAFETY AUDIT ======================
         st.markdown("### 🤖 AI Safety Verification")
-        if st.button("🚀 Tekan aku kalau nak double-check", type="primary", use_container_width=False):
-            with st.spinner("Engkauu sabar aku loading japp . . .", show_time=True):
+        if st.button("🚀 AI Verification", type="primary", use_container_width=False):
+            with st.spinner("⌛ Working on it...", show_time=True):
                 try:
                     client = OpenAI(
                         base_url="https://openrouter.ai/api/v1",
