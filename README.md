@@ -1,5 +1,5 @@
 # streamlit-med-app
-# 🩺 Vimalan MedAssist
+# 🩺 MedAssist
 
 An AI-powered pediatric medication dosage calculator built with Streamlit.
 
