@@ -17,7 +17,7 @@ HISTORY_FILE = os.path.join(BASE_DIR, "app_history.json")
 
 # ====================== PAGE CONFIG & STYLING ======================
 st.set_page_config(
-    page_title="🩺 Vimalan MedAssist",
+    page_title="🩺MedAssist",
     page_icon="🩺",
     layout="wide",
     initial_sidebar_state="expanded"
