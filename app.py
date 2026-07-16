@@ -80,7 +80,7 @@ if 'recent_medicines' not in st.session_state:
     st.session_state.recent_medicines = history_data.get("recent_medicines", [])
 
 # ====================== MAIN APP ======================
-st.markdown("# 🩺 Vimalan MedAssist")
+st.markdown("# 🩺MedAssist")
 
 tab1, tab2, tab3 = st.tabs(["💊 Dosage Calculator", "📊 History", "ℹ️ About"])
 if "audit_result" not in st.session_state:
